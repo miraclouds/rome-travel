@@ -3,7 +3,7 @@
 ==================================== */
 
 * {
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   font-family: nobile;
 }
 
@@ -146,7 +146,7 @@ img {
 
   .container {
 		width: 80%;
-		margin: 0 auto;
+		margin: auto;
     display: flex;
 	}
 
@@ -166,19 +166,21 @@ img {
   }
 
   .main-nav li {
-    margin-right: 1em;
+    margin-right: 0;
     margin-left: 1em;
   }
 
   .name {
     margin-right: auto;
     align-self: center;
+    margin-left: 0;
+
   }
 
   .main-content {
     display: flex;
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
   }
 
   .title {
